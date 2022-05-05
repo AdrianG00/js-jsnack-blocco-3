@@ -4,9 +4,7 @@ let som=0;
 do{
     let number = parseInt(prompt("Inserisci un numero"));
     som += number;
-    if (som<50){
-        array.push(number);
-    }
+    array.push(number);
 }while(som<50);
 
 
